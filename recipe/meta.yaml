@@ -10,7 +10,7 @@ source:
   sha256: c8e1d4e6d638c519a548be754639cbfb06560f9f0a95922435bdb4cf64816801
 
 build:
-  number: 1
+  number: 2
   script: 
     - {{ PYTHON }} -m pip install . -vv
     - {{ PYTHON }} {{ RECIPE_DIR }}/rm_broken_file.py
